@@ -1,1 +1,0 @@
-{"version":3,"sources":["kotiza/events.cljs"],"mappings":";AAKA,yDAAA,zDAACA,wJAEA,WAAKC,EAAEA;AAAP,AACEC","names":["re_frame.core.reg_event_db","_","kotiza.db/default-db"],"sourcesContent":["(ns kotiza.events\n  (:require\n   [re-frame.core :as re-frame]\n   [kotiza.db :as db]))\n\n(re-frame/reg-event-db\n ::initialize-db\n (fn [_ _]\n   db/default-db))\n"]}
