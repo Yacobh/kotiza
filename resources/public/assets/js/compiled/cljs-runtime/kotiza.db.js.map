@@ -1,0 +1,1 @@
+{"version":3,"sources":["kotiza/db.cljs"],"mappings":";AAEA,uBAAA,2CAAA,qDAAA,vHAAKA","names":["kotiza.db/default-db"],"sourcesContent":["(ns kotiza.db)\n\n(def default-db\n  {:name \"re-frame\"})\n"]}

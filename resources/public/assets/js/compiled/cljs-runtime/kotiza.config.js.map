@@ -1,0 +1,1 @@
+{"version":3,"sources":["kotiza/config.cljs"],"mappings":";AAEA,AAAKA,6BACMC","names":["kotiza.config/debug?","js/goog.DEBUG"],"sourcesContent":["(ns kotiza.config)\n\n(def debug?\n  ^boolean goog.DEBUG)\n"]}
